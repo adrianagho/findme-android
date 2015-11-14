@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_places"
+            android:icon="@drawable/ic_directions_bike_black_36dp"
+            android:title="Places" />
+        <item
+            android:id="@+id/navigation_events"
+            android:icon="@drawable/ic_directions_bus_black_36dp"
+            android:title="Events" />
+        <item
+            android:id="@+id/navigation_meetup"
+            android:icon="@drawable/ic_directions_car_black_36dp"
+            android:title="Meet Up"/>
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/navigation_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/navigation_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/navigation_about"
+            android:title="About" />
+    </group>
+</menu>
